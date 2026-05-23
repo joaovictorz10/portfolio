@@ -38,7 +38,7 @@
 
 <p>A versão online deste projeto está alojada na Vercel e pode ser acedida através do link abaixo:</p>
 <ul>
-  <li>➡️ <strong><a href="https://joaovictor10dev.vercel.app/">https://henriquegdc.dev</a></strong></li>
+  <li>➡️ <strong><a href="https://joaovictor10dev.vercel.app/">https://joaovictor10dev.vercel.app</a></strong></li>
 </ul>
 
 <hr>
