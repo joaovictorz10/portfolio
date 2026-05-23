@@ -38,7 +38,7 @@
 
 <p>A versão online deste projeto está alojada na Vercel e pode ser acedida através do link abaixo:</p>
 <ul>
-  <li>➡️ <strong><a href="https://henriquegdc.dev">https://henriquegdc.dev</a></strong></li>
+  <li>➡️ <strong><a href="https://joaovictor10dev.vercel.app/">https://henriquegdc.dev</a></strong></li>
 </ul>
 
 <hr>
@@ -149,7 +149,7 @@ service cloud.firestore {
 
 <ol>
   <li><strong>Clone o repositório:</strong>
-    <pre><code class="language-bash">git clone https://github.com/joaovictorz10/newportfolio.git</code></pre>
+    <pre><code class="language-bash">git clone https://github.com/joaovictorz10/portfolio</code></pre>
   </li>
   <li><strong>Abra o projeto no VS Code.</strong></li>
   <li><strong>Utilize o Live Server:</strong>
