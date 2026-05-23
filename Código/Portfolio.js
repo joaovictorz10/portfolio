@@ -8,24 +8,24 @@ function initLoader() {
     if (!loader || !terminalBody) return;
 
     const sequence = [
-        { type: 'input', text: 'C:\\Users\\Guest> connect joaovictor.dev --secure', delay: 300 },
-        { type: 'output', text: '[NETWORK] Estabelecendo conexão segura...', delay: 250 },
-        { type: 'output', text: '[OK] Conexão estabelecida.', delay: 300, color: 'var(--success)' },
-        { type: 'empty', delay: 50 },
-        { type: 'input', text: 'C:\\Users\\Guest> fetch portfolio.pkg', delay: 400 },
-        { type: 'output', text: 'Baixando componentes do portfólio...', delay: 200 },
-        { type: 'output', text: 'Descompactando arquivos: 100%', delay: 100 },
-        { type: 'output', text: 'Verificando integridade: [PASS]', delay: 100 },
-        { type: 'empty', delay: 50 },
-        { type: 'input', text: 'C:\\Users\\Guest> start portfolio.exe', delay: 300 },
-        { type: 'empty', delay: 50 },
-        { type: 'progress', text: 'Carregando módulos visuais... [', endText: '] 100%', delay: 400 },
-        { type: 'output', text: 'Acesso concedido. Bem-vindo.', color: 'var(--success)', delay: 200 }
+        { type: 'input', text: 'C:\\Users\\Guest> connect joaovictor.dev --secure', delay: 50 },
+        { type: 'output', text: '[NETWORK] Estabelecendo conexão segura...', delay: 50 },
+        { type: 'output', text: '[OK] Conexão estabelecida.', delay: 50, color: 'var(--success)' },
+        { type: 'empty', delay: 20 },
+        { type: 'input', text: 'C:\\Users\\Guest> fetch portfolio.pkg', delay: 50 },
+        { type: 'output', text: 'Baixando componentes do portfólio...', delay: 40 },
+        { type: 'output', text: 'Descompactando arquivos: 100%', delay: 30 },
+        { type: 'output', text: 'Verificando integridade: [PASS]', delay: 30 },
+        { type: 'empty', delay: 20 },
+        { type: 'input', text: 'C:\\Users\\Guest> start portfolio.exe', delay: 50 },
+        { type: 'empty', delay: 20 },
+        { type: 'progress', text: 'Carregando módulos visuais... [', endText: '] 100%', delay: 100 },
+        { type: 'output', text: 'Acesso concedido. Bem-vindo.', color: 'var(--success)', delay: 50 }
     ];
 
     async function playSequence() {
         for (const step of sequence) {
-            await new Promise(r => setTimeout(r, step.type === 'input' ? 100 : step.delay));
+            await new Promise(r => setTimeout(r, step.type === 'input' ? 30 : step.delay));
             
             const line = document.createElement('div');
             line.className = 'terminal-line';
@@ -50,7 +50,7 @@ function initLoader() {
                 // Typing effect
                 for (let i = 0; i < step.text.length; i++) {
                     cmdSpan.textContent += step.text[i];
-                    await new Promise(r => setTimeout(r, 5 + Math.random() * 10)); // faster typing
+                    await new Promise(r => setTimeout(r, 2 + Math.random() * 5)); // faster typing
                 }
                 await new Promise(r => setTimeout(r, step.delay));
             } else if (step.type === 'progress') {
@@ -83,7 +83,7 @@ function initLoader() {
                 anime({
                     targets: loader,
                     opacity: [1, 0],
-                    duration: 500,
+                    duration: 300,
                     easing: 'easeInOutQuad',
                     complete: () => {
                         loader.classList.add('hidden');
@@ -96,7 +96,7 @@ function initLoader() {
                 document.body.classList.remove('loading-state');
                 initPageAnimations();
             }
-        }, 400);
+        }, 150);
     }
     
     playSequence();
