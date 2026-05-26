@@ -14,8 +14,7 @@
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
   <img src="https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34" alt="Firebase">
   <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
-  <img src="https://img.shields.io/github/stars/henriquegdc/my-portfolio?style=for-the-badge&logo=github" alt="GitHub stars">
-  <img src="https://img.shields.io/github/last-commit/henriquegdc/my-portfolio?style=for-the-badge&logo=clockify" alt="GitHub last commit">
+  <img src="https://img.shields.io/github/last-commit/joaovictorz10/portfolio?style=for-the-badge&logo=clockify" alt="GitHub last commit">
 </p>
 
 <hr>
