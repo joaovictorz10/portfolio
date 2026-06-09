@@ -160,6 +160,13 @@ service cloud.firestore {
 
 <hr>
 
+## 👥 Autor
+
+| 👤 Autor | 🖼️ Perfil | :octocat: GitHub | 💼 LinkedIn | 📤 Contato |
+|---------|----------|-----------------|-------------|-----------|
+| **João Victor Russo Marquito** | <div align="center"><img src="https://github.com/joaovictorz10.png" width="55px" height="55px"></div> | <div align="center"><a href="https://github.com/joaovictorz10"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="35px" height="35px"></a></div> | <div align="center"><a href="https://www.linkedin.com/in/joaovictor-russo/"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="35px" height="35px"></a></div> | <div align="center"><a href="mailto:devjoaovictor9@gmail.com"><img src="https://joaopauloaramuni.github.io/image/gmail3.png" width="35px" height="35px"></a></div> |
+
+---
 <h2>🔗 Links úteis</h2>
 
 <ul>
